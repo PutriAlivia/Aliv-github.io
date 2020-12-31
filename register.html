@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Register Page</title>
+<link href="assets/css/loginStyle.css" rel='stylesheet' type='text/css' />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="keywords" content="Login , registration "./>
+		<link href='http://fonts.googleapis.com/css?family=Cabin:400,500,600,700,400italic,500italic,600italic,700italic' rel='stylesheet' type='text/css'>
+</head>
+<body>
+	<div class="login-02">
+		<div class="two-login  hvr-float-shadow">
+			<div class="two-login-head">
+					<img src="assets/image/top-note.png" alt=""/>
+					<h2>Register</h2>
+					<lable></lable>
+			</div>
+			<form method="post" action="insertRegister.php">
+				<div class="textLabel">
+					<label>First Name : </label>
+				</div>
+				<li>
+					<input type="text" name="firstname" class="text" value="First Name" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'First Name';}" ><a href="#" class=" icon2 name"></a>
+				</li>
+				<div class="textLabel">
+					<label>Last Name : </label>
+				</div>
+				<li>
+					<input type="text" name="lastname" class="text" value="Last Name" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Last Name';}" ><a href="#" class=" icon2 name"></a>
+				</li>
+				<div class="textLabel">
+					<label>Username : </label>
+				</div>
+				<li>
+					<input type="text" name="username" class="text" value="Username" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Username';}" ><a href="#" class=" icon2 user2"></a>
+				</li>
+				<div class="textLabel">
+					<label>Password : </label>
+				</div>
+				<li>
+					<input type="password" name="password" value="Password" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Password';}"><a href="#" class=" icon2 lock2"></a>
+				</li>
+				<div class="textLabel">
+					<label>Confirm Password : </label>
+				</div>
+				<li>
+					<input type="password" name="confirm" value="Confirm Password" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Confirm Password';}"><a href="#" class=" icon2 lock2"></a>
+				</li>
+				<div class="textLabel">
+					<label>Email : </label>
+				</div>
+				<li>
+					<input type="text" name="email" class="text" value="E-mail" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'E-mail';}" ><a href="#" class=" icon2 mail"></a>
+				</li>
+				<div class="submit two">
+						<input type="submit"  value="SIGN UP">
+						<a href="index.html"></a>
+				</div>
+					<h5>Already Have Account ?<a href="LOGIN.html"> Login Here</a></h5>
+			</form>
+		</div>
+	</div>
+</body>
+</html>
